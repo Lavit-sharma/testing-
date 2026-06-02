@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   # Automatically runs every day at 1:30 PM IST (08:00 UTC)
   schedule:
-    - cron: '30 8 * * *'
+    - cron: '30 15 * * *'
 
 jobs:
   scrape:
